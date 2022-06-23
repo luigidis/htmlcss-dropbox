@@ -54,6 +54,7 @@ nav ul {
     font-weight: bold;
     margin: 0 auto;
     max-width: 1196px;
+    padding-top: 50px;
 }
 
 .container-main {
@@ -83,4 +84,10 @@ nav ul {
 .w-70 img {
     width: 100%;
     height: 120%;
+}
+
+.button__2 {
+    padding: 15px;
+    max-width: 200px;
+    text-align: center;
 }
