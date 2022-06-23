@@ -12,10 +12,13 @@ ul, ol, menu {
     list-style: none;
 }
 
+/* Header */
+
 .main-header .container {
     display: flex;
     padding: 15px;
     column-gap: 20px;
+    line-height: 24px;
 }
 
 nav ul {
@@ -32,11 +35,46 @@ nav ul {
 .button {
     color: white;
     background-color: #0362FF;
-    line-height: 24px;
+    
+}
+
+.button__1 {
     padding-left: 16px;
     padding-right: 16px;
 }
 
+/* First Section */
+
 .blue-section   {
     background-color: #B4D0E7;
+}
+
+.main-section h1, .main-section .container-main {
+    font-size: 64px;
+    font-weight: bold;
+    margin: 0 auto;
+    max-width: 1196px;
+}
+
+.container-main, .container__2 {
+    display: flex;
+    gap: 20px;
+}
+
+.container__2 {
+    flex-direction: column;
+    /* justify-content: space-between; */
+    padding-top: 20px;
+    row-gap: 20px;
+    font-size: 16px;
+    justify-content: end;
+    flex-basis: 40%;
+}
+
+.fa-size {
+    font-size: 56px;  
+}
+
+.w-70 {
+    flex-basis: 60%;
 }
