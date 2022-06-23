@@ -56,19 +56,21 @@ nav ul {
     max-width: 1196px;
 }
 
-.container-main, .container__2 {
+.container-main {
     display: flex;
     gap: 20px;
 }
 
 .container__2 {
+    display: flex;
+    flex-shrink: 0;
     flex-direction: column;
-    /* justify-content: space-between; */
     padding-top: 20px;
     row-gap: 20px;
     font-size: 16px;
     justify-content: end;
     flex-basis: 40%;
+    padding-right: 26px;
 }
 
 .fa-size {
