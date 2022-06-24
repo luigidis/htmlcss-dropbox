@@ -169,6 +169,7 @@ dare sempre la stessa dimensione a tutte le colonne presenti nella riga */
 .col-12 {
     flex-basis: calc(100% / 1);
     margin-top: 50px;
+    margin-bottom: 60px;
 }
 
 .col-1, .col-12 {
@@ -273,4 +274,55 @@ dare sempre la stessa dimensione a tutte le colonne presenti nella riga */
     top: 30px;
     right: 25px;
 }
+
+
+
+.container_small {
+    /* border: solid 2px red; */
+    padding-top: 60px;
+}
+
+.row {
+    display: flex;
+    column-gap: 50px;
+}
+
+.row .column-1 {
+    flex-basis: calc((100% / 5) * 3 );
+    
+}
+
+.row .column-2 {
+    flex-basis: calc((100% / 5) * 2);
+}
+
+.container_small .row .column-2 {
+    padding-top: 50px;
+    padding-bottom: 170px;
+}
+
+.part_1 {
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.part_2 {
+    margin-bottom: 15px;
+}
+
+.part_3 {
+    border: #A6A6A6 solid 1px;
+    text-align: center;
+    line-height: 40px;
+    max-width: 160px;
+    margin-right: auto;    
+    padding: 0;
+    box-shadow: 1px 1px;
+}
+
+.part_3 a {
+    text-decoration: none;
+    color: currentColor;
+}
+
 
