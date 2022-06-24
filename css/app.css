@@ -14,6 +14,11 @@ menu {
     list-style: none;
 }
 
+img {
+    max-width: 100%;
+    display: block;
+}
+
 /* Debug */
 
 /* .planes div {
@@ -22,6 +27,11 @@ menu {
 
 /* Header */
 
+/* .main-header {
+    display: flex;
+    padding: 23px 18px;
+    align-items: center;
+} */
 .main-header .container {
     display: flex;
     padding: 15px;
@@ -34,6 +44,7 @@ nav ul {
     column-gap: 40px;
     font-weight: 100;
     font-size: 18px;
+    white-space: nowrap;
 }
 
 #flex-grow {
@@ -84,7 +95,7 @@ nav ul {
     display: flex;
     flex-shrink: 0;
     flex-direction: column;
-    row-gap: 20px;
+    row-gap: 36px;
     font-size: 16px;
     /* justify-content: space-around; */
     flex-basis: 30%;
@@ -108,9 +119,9 @@ nav ul {
 
 .w-70 img {
     position: absolute;
-    bottom: -72px;
+    /* bottom: -72px;
     left: 0;
-    width: 100%;
+    width: 100%; */
 }
 
 /* Seconda Section */
@@ -136,7 +147,7 @@ nav ul {
 }
 
 .planes div .p_1 {
-    border: solid 1px black;
+    border: solid 0.5px black;
     text-align: center;
     padding: 5px;
     font-size: 12px;
@@ -186,7 +197,7 @@ nav ul {
     display: inline-block;
     color: cornflowerblue;
     font-weight: bold;
-    width: 1.3em;
+    /* width: 1.3em; */
     margin-left: -1.3em;
 }
 
