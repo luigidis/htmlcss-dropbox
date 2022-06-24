@@ -95,11 +95,15 @@ nav ul {
     display: flex;
     flex-shrink: 0;
     flex-direction: column;
-    row-gap: 50px;
+    row-gap: 30px;
     font-size: 16px;
     /* justify-content: space-around; */
     flex-basis: 30%;
     padding-right: 26px;
+}
+
+.container__2 i {
+    padding-top: 60px;
 }
 
 .fa-size {
