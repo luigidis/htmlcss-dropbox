@@ -181,7 +181,13 @@ nav ul {
 }
 
 .p_3 ul li::before {
-    content: \f00c;   
+    content: "\f00c";
+    font-family: "Font Awesome 5 Brands";   
+    display: inline-block;
+    color: cornflowerblue;
+    font-weight: bold;
+    width: 1.3em;
+    margin-left: -1.3em;
 }
 
 .p_3 ul li {
