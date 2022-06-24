@@ -8,9 +8,17 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
-ul, ol, menu {
+ul,
+ol,
+menu {
     list-style: none;
 }
+
+/* Debug */
+
+/* .planes div {
+    border: 3px solid red;
+} */
 
 /* Header */
 
@@ -35,7 +43,7 @@ nav ul {
 .button {
     color: white;
     background-color: #0362FF;
-    
+
 }
 
 .button__1 {
@@ -45,11 +53,12 @@ nav ul {
 
 /* First Section */
 
-.blue-section   {
+.blue-section {
     background-color: #B4D0E7;
 }
 
-.main-section h1, .main-section .container-main {
+.main-section h1,
+.main-section .container-main {
     font-size: 64px;
     font-weight: bold;
     margin: 0 auto;
@@ -83,7 +92,7 @@ nav ul {
 }
 
 .fa-size {
-    font-size: 56px;  
+    font-size: 56px;
 }
 
 .w-70 {
@@ -116,8 +125,66 @@ nav ul {
     padding-top: 50px;
 }
 
-.paragraph-1, .contain {
+.paragraph-1,
+.contain {
     margin: 0 auto;
     max-width: 1002px;
+}
+
+.planes {
+    display: flex;
+}
+
+.planes div .p_1 {
+    border: solid 1px black;
+    text-align: center;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.planes div .p_2 {
+    padding: 25px;
+}
+
+.planes div .p_2 * {
+    padding-bottom: 10px;
+}
+
+.planes div .p_2 .li_1 {
+    padding-top: 40px;
+}
+
+.planes div .p_2 .button_planes {
+    text-align: center;
+    line-height: 40px;
+    max-width: 235px;
+    margin: 0 auto;
+    padding: 0;
+    /* padding-bottom: 0px; */
+}
+
+.link {
+    padding-top: 35px;
+}
+
+#hr {
+    margin-top: 40px;
+    padding: 0;
+}
+
+#ul {
+    padding-bottom: 50px;
+}
+
+.p_3 {
+    padding: 25px;
+}
+
+.p_3 ul li::before {
+    content: \f00c;   
+}
+
+.p_3 ul li {
+    padding-top: 20px;
 }
 
