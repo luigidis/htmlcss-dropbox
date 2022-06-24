@@ -19,6 +19,16 @@ img {
     display: block;
 }
 
+.container_big {
+    max-width: 1196px;
+    margin: 0 auto;
+}
+
+.container_small {
+    max-width: 1002px;
+    margin: 0 auto;
+}
+
 /* Debug */
 
 /* .planes div {
@@ -263,3 +273,4 @@ dare sempre la stessa dimensione a tutte le colonne presenti nella riga */
     top: 30px;
     right: 25px;
 }
+
