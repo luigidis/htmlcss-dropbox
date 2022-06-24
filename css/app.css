@@ -95,7 +95,7 @@ nav ul {
     display: flex;
     flex-shrink: 0;
     flex-direction: column;
-    row-gap: 36px;
+    row-gap: 50px;
     font-size: 16px;
     /* justify-content: space-around; */
     flex-basis: 30%;
