@@ -27,6 +27,7 @@ img {
 .container_small {
     max-width: 1002px;
     margin: 0 auto;
+    /* border: solid 2px red; */
 }
 
 /* Debug */
@@ -247,7 +248,7 @@ dare sempre la stessa dimensione a tutte le colonne presenti nella riga */
     color: cornflowerblue;
 }
 
-/* Css quarta colonna del blocco di 4 card */
+/* Css quarto piano tariffario del blocco di 4 card */
 
 .p_4 {
     position: relative;
@@ -277,8 +278,7 @@ dare sempre la stessa dimensione a tutte le colonne presenti nella riga */
 
 
 
-.container_small {
-    /* border: solid 2px red; */
+.container_pad {
     padding-top: 60px;
 }
 
@@ -325,4 +325,57 @@ dare sempre la stessa dimensione a tutte le colonne presenti nella riga */
     color: currentColor;
 }
 
+
+/* Css della quarta section*/  
+
+.container_small #p_1 {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.row-2 {
+    display: flex;
+    column-gap: 30px;
+}
+
+.section-4 {
+    margin-top: 150px;
+}
+
+.column-1 {
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.col-text {
+    margin-top: 30px;
+}
+
+.col-margin {
+    margin-top: 30px;
+}
+
+.container-margin {
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+
+/* Inizio Css quinta section */
+
+.container_h2_5 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container_small .link-5 {
+    margin-top: 50px;
+    display: block;
+    
+}
+
+.container-margin-2 {
+    margin-bottom: 130px;
+}
+
+/* Inizio Css Sesta section */
 
