@@ -413,7 +413,49 @@ dare sempre la stessa dimensione a tutte le colonne presenti nella riga */
     border: 5px solid cornflowerblue;
     justify-content: center;
     align-items: center;
-    width: 50%;
-    
+    width: 50%; 
 }
 
+.item-column-6 img {
+    width: 165px;
+}
+
+.column-6-m {
+    display: flex;
+    flex-direction: column;
+}
+
+.column-6-m .item-column-6-m-2 {
+    flex-basis: calc((100% / 7) * 2);
+}
+
+.column-6-m .item-column-6-m-2 img {
+    width: 275px;
+    padding-left: 45px;
+    padding-top: 35px;
+    padding-bottom: 45px;
+}
+
+.column-6-m .item-column-6-m-5 {
+    flex-basis: calc((100% / 7) * 5);
+}
+
+.item-column-6-m-5 hr {
+    width: 110px;
+    margin-left: 45px;
+    color: #E1E1E2;
+}
+
+.item-column-6-m-5 .p_1  {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 50px;
+    font-size: 17px;
+}
+
+.item-column-6-m-5 .p_2 {
+    padding-left: 30px;
+    padding-right: 50px;
+    font-size: 17px;
+    padding-top: 45px;
+}
