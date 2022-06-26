@@ -388,7 +388,7 @@ dare sempre la stessa dimensione a tutte le colonne presenti nella riga */
 .column-6 {
     flex-basis: calc(100% / 3);
     /* padding: 50px;   */
-    border: solid 5px red;
+    /* border: solid 5px red; */
 }
 
 .column-6-flex {
@@ -409,8 +409,8 @@ dare sempre la stessa dimensione a tutte le colonne presenti nella riga */
 
 .item-column-6 {
     display: flex;
-    padding: 50px;
-    border: 5px solid cornflowerblue;
+    /* padding: 50px; */
+    /* border: 5px solid cornflowerblue; */
     justify-content: center;
     align-items: center;
     width: 50%; 
@@ -458,4 +458,40 @@ dare sempre la stessa dimensione a tutte le colonne presenti nella riga */
     padding-right: 50px;
     font-size: 17px;
     padding-top: 45px;
+}
+
+.b-green {
+    background-color: #A2D39B;
+}
+
+.b-cyan {
+    background-color: #0093CE;
+}
+
+.b-bordeaux {
+    background-color: #61082B;
+}
+
+.b-orange {
+    background-color: #FF1C1C;
+}
+
+.b-light-greeb {
+    background-color: #F5F5F5;
+}
+
+.b-blue {
+    background-color: #0D2481;
+}
+
+.b-turquoise {
+    background-color: #B4D0E7;
+}
+
+.b-yellow {
+    background-color: #FFD830;
+}
+
+.b-red {
+    background-color: #D5001F;
 }
