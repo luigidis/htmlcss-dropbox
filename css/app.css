@@ -160,7 +160,7 @@ nav ul {
     margin-bottom: 40px;
 }
 
-.checkboxes  div label {
+.checkboxes div label {
     padding-right: 25px;
 }
 
@@ -186,9 +186,10 @@ dare sempre la stessa dimensione a tutte le colonne presenti nella riga */
     margin-bottom: 60px;
 }
 
-.col-1, .col-12 {
+.col-1,
+.col-12 {
     border: solid 1px #DBDBDD;
-    
+
 }
 
 .planes div .p_1 {
@@ -280,13 +281,13 @@ dare sempre la stessa dimensione a tutte le colonne presenti nella riga */
 .p_4 h3 {
     padding-top: 40px;
     padding-bottom: 25px;
-    
+
 }
 
 .p_4_1 {
     padding-top: 45px;
     padding-bottom: 25px;
-    
+
 }
 
 .button_planes_last {
@@ -310,8 +311,8 @@ dare sempre la stessa dimensione a tutte le colonne presenti nella riga */
 }
 
 .row .column-1 {
-    flex-basis: calc((100% / 5) * 3 );
-    
+    flex-basis: calc((100% / 5) * 3);
+
 }
 
 .row .column-2 {
@@ -337,7 +338,7 @@ dare sempre la stessa dimensione a tutte le colonne presenti nella riga */
     text-align: center;
     line-height: 40px;
     max-width: 160px;
-    margin-right: auto;    
+    margin-right: auto;
     padding: 0;
     box-shadow: 1px 1px;
 }
@@ -348,7 +349,7 @@ dare sempre la stessa dimensione a tutte le colonne presenti nella riga */
 }
 
 
-/* Css della quarta section*/  
+/* Css della quarta section*/
 
 .container_small #p_1 {
     font-size: 42px;
@@ -396,7 +397,7 @@ dare sempre la stessa dimensione a tutte le colonne presenti nella riga */
 .container_small .link-5 {
     margin-top: 50px;
     display: block;
-    
+
 }
 
 .container-margin-2 {
@@ -405,10 +406,10 @@ dare sempre la stessa dimensione a tutte le colonne presenti nella riga */
 
 /* Inizio Css Sesta section */
 
-.row-3  {
+.row-3 {
     display: flex;
     flex-wrap: nowrap;
-    
+
 }
 
 .column-6 {
@@ -473,7 +474,7 @@ dare sempre la stessa dimensione a tutte le colonne presenti nella riga */
     color: #E1E1E2;
 }
 
-.item-column-6-m-5 .p_1  {
+.item-column-6-m-5 .p_1 {
     padding-top: 30px;
     padding-left: 30px;
     padding-right: 50px;
@@ -525,7 +526,7 @@ dare sempre la stessa dimensione a tutte le colonne presenti nella riga */
 
 .change-my-color {
     filter: invert(100%);
-    
+
 }
 
 .green-hover::after {
@@ -603,12 +604,12 @@ footer {
     background-color: black;
     color: white;
 }
-    
-.row-f  {
-  display: flex; 
-  justify-content: space-between;
-  padding: 90px 0;
-  position: relative;
+
+.row-f {
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 0;
+    position: relative;
 }
 
 .col-f h4 {
@@ -634,5 +635,3 @@ footer {
     padding: 45px 0;
     color: #63766D;
 }
-  
-
