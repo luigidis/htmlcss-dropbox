@@ -527,11 +527,19 @@ dare sempre la stessa dimensione a tutte le colonne presenti nella riga */
 
 /* Css Settiman Sezione */
 
+.margin_section_7 {
+    padding-top: 135px;
+    padding-bottom: 135px;
+}
+
 .button_7_section {
     text-align: center;
     line-height: 40px;
     max-width: 235px;
-    margin: 0 auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: 0;
     padding: 0;
     background-color: white;
 }
@@ -540,3 +548,15 @@ dare sempre la stessa dimensione a tutte le colonne presenti nella riga */
     display: flex;
     justify-content: space-between;
 }
+
+.col-50 {
+    flex-basis: calc(100% / 2);
+    /* border: solid 3px red; */
+}
+
+.col-50 h1 {
+    width: 475px;
+    font-size: 42px;
+    color: #61082C;
+}
+
