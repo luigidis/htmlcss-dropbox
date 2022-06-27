@@ -45,6 +45,11 @@ img {
     line-height: 24px;
 }
 
+nav ul a {
+    text-decoration: none;
+    color: currentColor;
+}
+
 nav ul {
     display: flex;
     column-gap: 40px;
@@ -302,12 +307,12 @@ dare sempre la stessa dimensione a tutte le colonne presenti nella riga */
 }
 
 .part_1 {
-    margin-bottom: 50px;
+    margin-bottom: 16px;
     font-size: 20px;
 }
 
 .part_2 {
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 .part_3 {
@@ -335,7 +340,8 @@ dare sempre la stessa dimensione a tutte le colonne presenti nella riga */
 
 .row-2 {
     display: flex;
-    column-gap: 30px;
+    gap: 50px;
+    flex-wrap: wrap;
 }
 
 .section-4 {
@@ -344,16 +350,18 @@ dare sempre la stessa dimensione a tutte le colonne presenti nella riga */
 
 .column-1 {
     flex-basis: 0;
+    /* border: 2px solid salmon; */
     flex-grow: 1;
+    min-width: 250px;
 }
 
 .col-text {
     margin-top: 30px;
 }
 
-.col-margin {
+/* .col-margin {
     margin-top: 30px;
-}
+} */
 
 .container-margin {
     margin-top: 10px;
