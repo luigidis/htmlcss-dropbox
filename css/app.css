@@ -30,6 +30,11 @@ img {
     /* border: solid 2px red; */
 }
 
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
 /* Debug */
 
 /* .planes div {
@@ -554,9 +559,32 @@ dare sempre la stessa dimensione a tutte le colonne presenti nella riga */
     /* border: solid 3px red; */
 }
 
-.col-50 h1 {
+.col-50 h3 {
     width: 475px;
     font-size: 42px;
     color: #61082C;
+}
+
+/* Ottava Sezione */
+
+.container_flex_8 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-bottom: 140px;
+}
+
+.container_flex_8 ul li:first-child {
+    border-top: solid 1px black;
+}
+
+.listitem_8 {
+    padding: 40px 0;
+    border-bottom: solid 1px black;
+    font-weight: bold;
+}
+
+.h3_section_8 {
+    margin-bottom: 47px;
 }
 
