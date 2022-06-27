@@ -495,3 +495,7 @@ dare sempre la stessa dimensione a tutte le colonne presenti nella riga */
 .b-red {
     background-color: #D5001F;
 }
+
+.change-my-color {
+    filter: invert(100%) sepia(0%) saturate(7486%) hue-rotate(302deg) brightness(103%) contrast(98%);
+}
