@@ -594,7 +594,36 @@ footer {
     background-color: black;
     color: white;
 }
+    
 .row-f  {
   display: flex; 
-  justify-content: space-between; 
+  justify-content: space-between;
+  padding: 90px 0;
+  position: relative;
 }
+
+.col-f h4 {
+    padding-bottom: 35px;
+    font-size: 24px;
+}
+
+.col-f ul li {
+    padding-bottom: 15px;
+}
+
+.col-f:first-child::after {
+    content: '';
+    width: 120px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    background-color: white;
+}
+
+.l_selection {
+    padding: 45px 0;
+    color: #63766D;
+}
+  
+
