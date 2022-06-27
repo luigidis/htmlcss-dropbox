@@ -588,3 +588,13 @@ dare sempre la stessa dimensione a tutte le colonne presenti nella riga */
     margin-bottom: 47px;
 }
 
+/* Footer */
+
+footer {
+    background-color: black;
+    color: white;
+}
+.row-f  {
+  display: flex; 
+  justify-content: space-between; 
+}
