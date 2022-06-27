@@ -227,6 +227,15 @@ dare sempre la stessa dimensione a tutte le colonne presenti nella riga */
     padding: 0;
 }
 
+.p_2 ul span {
+    height: 32px;
+}
+
+.p_2 a {
+    text-decoration: underline;
+    color: blue;
+}
+
 .link {
     padding-top: 35px;
 }
@@ -354,7 +363,7 @@ dare sempre la stessa dimensione a tutte le colonne presenti nella riga */
 
 .section-4 {
     margin-top: 150px;
-    margin-bottom: 15px;
+    margin-bottom: 45px;
 }
 
 .column-1 {
@@ -626,6 +635,4 @@ footer {
     color: #63766D;
 }
   
-.p_2 ul span {
-    height: 32px;
-}
+
